@@ -1,5 +1,7 @@
 # codex-shim
 
+<img src="assets/codex-shim.svg" alt="codex-shim" width="860">
+
 Run **Codex Desktop** against any BYOK model you can describe in
 `~/.codex-shim/models.json`, plus an optional passthrough to your **ChatGPT
 subscription's Codex model** — without rebuilding Codex.
