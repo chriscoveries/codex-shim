@@ -2,6 +2,8 @@
 
 <img src="assets/codex-shim.svg" alt="codex-shim" width="860">
 
+Fork of [sybil-solutions/codex-shim](https://github.com/sybil-solutions/codex-shim), used to stage upstream contributions (Cursor Composer passthrough, Windows launcher, the `/picker` UI, and the DNS-rebinding fix all landed upstream from here). `main` tracks upstream; new work lives on `codex/*` branches.
+
 Run **Codex Desktop** against any BYOK model you can describe in
 `~/.codex-shim/models.json`, plus an optional passthrough to your **ChatGPT
 subscription's Codex model** — without rebuilding Codex.
@@ -76,7 +78,7 @@ Recommended on macOS/Linux/WSL/Git Bash (installs the `codex-shim` entry
 point from `pyproject.toml`):
 
 ```bash
-git clone https://github.com/0xSero/codex-shim ~/codex-shim
+git clone https://github.com/sybil-solutions/codex-shim ~/codex-shim
 cd ~/codex-shim
 python3 -m pip install --user -e .
 ```
@@ -84,7 +86,7 @@ python3 -m pip install --user -e .
 Recommended on native Windows PowerShell/cmd:
 
 ```powershell
-git clone https://github.com/0xSero/codex-shim $HOME\codex-shim
+git clone https://github.com/sybil-solutions/codex-shim $HOME\codex-shim
 cd $HOME\codex-shim
 py -3.11 -m pip install --user -e .
 ```
@@ -106,7 +108,7 @@ Alternative on macOS/Linux/WSL/Git Bash (no install, run straight from the
 checkout):
 
 ```bash
-git clone https://github.com/0xSero/codex-shim ~/codex-shim
+git clone https://github.com/sybil-solutions/codex-shim ~/codex-shim
 cd ~/codex-shim
 python3 -m pip install --user aiohttp
 mkdir -p ~/.local/bin
